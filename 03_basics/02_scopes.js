@@ -44,7 +44,7 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+// console.log(addone(5))
 
 function addone(num){
     return num + 1
@@ -52,7 +52,11 @@ function addone(num){
 
 
 
-addTwo(5)
-const addTwo = function(num){
+
+const addTwo = function hello(num){
     return num + 2
-}
+}//this hello is not present globally it is locally to the function only
+// console.log(addTwo(5));
+// console.log(hello(10));
+
+

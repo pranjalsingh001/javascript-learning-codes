@@ -2,7 +2,6 @@
 // Object.create
 
 // object literals
-
 const mySym = Symbol("key1")
 
 
@@ -25,6 +24,7 @@ const JsUser = {
 JsUser.email = "hitesh@chatgpt.com"
 // Object.freeze(JsUser)
 JsUser.email = "hitesh@microsoft.com"
+JsUser.age = 1000
 // console.log(JsUser);
 
 JsUser.greeting = function(){
